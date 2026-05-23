@@ -28,6 +28,12 @@
 4. 檢查 GitHub、Firebase、NotebookLM 的連線狀態。
 5. 整理成「今日工作準備報告」，列出建議優先事項。
 
+可使用一鍵檢查腳本：
+
+```bash
+scripts/check-services.sh
+```
+
 ---
 
 ## 收工 SOP
@@ -82,6 +88,9 @@ nlm list notebooks
 
 # Obsidian Vault
 ls ~/Documents/ObsidianVault/
+
+# 一鍵服務檢查
+scripts/check-services.sh
 ```
 
 ---

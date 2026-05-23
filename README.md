@@ -23,6 +23,7 @@
 * 📄 **[10-Codex專屬懶人包-macOS版.md](10-Codex專屬懶人包-macOS版.md)**：**Codex 版核心指南主檔**，詳細記錄 Codex 在 macOS 上連接服務、產出文件與備份 GitHub 的流程。
 * ⚡ **[QUICKSTART.md](QUICKSTART.md)**：Codex 版快速開始，只保留最短可執行路徑。
 * 🧭 **[CODEX.md](CODEX.md)**：Codex 專案駕駛艙，定義開工、收工、專案初始化與文件備份 SOP。
+* 🛠️ **[scripts/check-services.sh](scripts/check-services.sh)**：一鍵檢查 GitHub、Firebase、NotebookLM、Obsidian 與本機工具狀態。
 * 📄 **[09-AntiGravity專屬懶人包-macOS版.md](09-AntiGravity專屬懶人包-macOS版.md)**：Anti-Gravity 版核心指南主檔，保留作為原始對照。
 * 🧭 **[ANTIGRAVITY.md](ANTIGRAVITY.md)**：Anti-Gravity 版專案駕駛艙。
 * 📝 **[ai_educational_agents_trends.md](ai_educational_agents_trends.md)**：實戰產出的 AI 教育代理人教學與行政應用深度報告（與原版相同）。
@@ -51,6 +52,12 @@ python3 --version && node --version && npm --version
 2. **第二部分**：使用 Codex 產出圖片、文件、簡報與試算表。
 3. **第三部分**：建立與執行 `CODEX.md` 開工/收工/專案初始化 SOP。
 4. **第四部分**：將文件與工作成果安全備份到 GitHub。
+
+完成設定後，可直接執行：
+
+```bash
+scripts/check-services.sh
+```
 
 Anti-Gravity 使用者則可閱讀 📖 [09-AntiGravity專屬懶人包-macOS版.md](09-AntiGravity專屬懶人包-macOS版.md)。
 

@@ -27,6 +27,12 @@ brew install gh
 gh auth login --web --git-protocol https
 ```
 
+如果已完成基本設定，也可以直接執行完整檢查：
+
+```bash
+scripts/check-services.sh
+```
+
 ---
 
 ## 2. 讓 Codex 讀懂這個 repo
@@ -76,6 +82,12 @@ nlm list notebooks
 ```text
 ~/Documents/ObsidianVault
 ~/Library/Mobile Documents/iCloud~md~obsidian/Documents/你的Vault名稱
+```
+
+若你的 Vault 不在預設位置，可用環境變數指定：
+
+```bash
+OBSIDIAN_VAULT="/path/to/your/vault" scripts/check-services.sh
 ```
 
 ---
