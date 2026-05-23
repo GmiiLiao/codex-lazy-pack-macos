@@ -21,12 +21,15 @@
 ## 📂 檔案目錄說明
 
 * 📄 **[10-Codex專屬懶人包-macOS版.md](10-Codex專屬懶人包-macOS版.md)**：**Codex 版核心指南主檔**，詳細記錄 Codex 在 macOS 上連接服務、產出文件與備份 GitHub 的流程。
+* ⚡ **[QUICKSTART.md](QUICKSTART.md)**：Codex 版快速開始，只保留最短可執行路徑。
 * 🧭 **[CODEX.md](CODEX.md)**：Codex 專案駕駛艙，定義開工、收工、專案初始化與文件備份 SOP。
 * 📄 **[09-AntiGravity專屬懶人包-macOS版.md](09-AntiGravity專屬懶人包-macOS版.md)**：Anti-Gravity 版核心指南主檔，保留作為原始對照。
 * 🧭 **[ANTIGRAVITY.md](ANTIGRAVITY.md)**：Anti-Gravity 版專案駕駛艙。
 * 📝 **[ai_educational_agents_trends.md](ai_educational_agents_trends.md)**：實戰產出的 AI 教育代理人教學與行政應用深度報告（與原版相同）。
+* 📊 **[notebooks.example.json](notebooks.example.json)**：NotebookLM 筆記本資料範例，避免直接提交私人筆記本清單。
+* 🖼️ **[assets/](assets/)**：圖片、資訊圖表與其他視覺素材的建議存放位置。
 
-> 備註：原 README 曾提到 `notebooks.json` 與資訊圖 PNG；目前 repo 中尚未包含這些檔案，後續可由 Codex 產出後再補入 `assets/` 目錄。
+> 備註：若要提交實際 `notebooks.json`，請先確認內容不含私人資料、筆記本 ID 或敏感來源資訊。
 
 ---
 
@@ -42,7 +45,7 @@
 python3 --version && node --version && npm --version
 ```
 
-### Codex 使用者請先閱讀 📖 [10-Codex專屬懶人包-macOS版.md](10-Codex專屬懶人包-macOS版.md)，照著內部的四大步驟進行配置：
+### Codex 使用者可以先閱讀 ⚡ [QUICKSTART.md](QUICKSTART.md)，再進入 📖 [10-Codex專屬懶人包-macOS版.md](10-Codex專屬懶人包-macOS版.md) 完成完整配置：
 
 1. **第一部分**：連接 NotebookLM、Firebase、GitHub 與 Obsidian（macOS 版指令）。
 2. **第二部分**：使用 Codex 產出圖片、文件、簡報與試算表。

@@ -1,0 +1,12 @@
+{
+  "description": "NotebookLM 筆記本清單範例。請勿把含有私人資料的實際匯出檔直接公開提交。",
+  "generatedAt": "2026-05-23T00:00:00+08:00",
+  "notebooks": [
+    {
+      "id": "example-notebook-id",
+      "title": "AI 教育代理人最新趨勢研究",
+      "description": "用於測試 Codex / NotebookLM 工作流的範例筆記本",
+      "tags": ["education", "ai-agents", "research"]
+    }
+  ]
+}
