@@ -22,6 +22,7 @@
 
 * 📄 **[10-Codex專屬懶人包-macOS版.md](10-Codex專屬懶人包-macOS版.md)**：**Codex 版核心指南主檔**，詳細記錄 Codex 在 macOS 上連接服務、產出文件與備份 GitHub 的流程。
 * ⚡ **[QUICKSTART.md](QUICKSTART.md)**：Codex 版快速開始，只保留最短可執行路徑。
+* 🗺️ **[docs/workflows.md](docs/workflows.md)**：將核心指南拆成可照做的工作流程，涵蓋基礎環境、NotebookLM、Firebase、GitHub、Obsidian、資訊圖、駕駛艙與常見排解。
 * 🧭 **[CODEX.md](CODEX.md)**：Codex 專案駕駛艙，定義開工、收工、專案初始化與文件備份 SOP。
 * 🛠️ **[scripts/check-services.sh](scripts/check-services.sh)**：一鍵檢查 GitHub、Firebase、NotebookLM、Obsidian 與本機工具狀態。
 * 📄 **[09-AntiGravity專屬懶人包-macOS版.md](09-AntiGravity專屬懶人包-macOS版.md)**：Anti-Gravity 版核心指南主檔，保留作為原始對照。
@@ -46,7 +47,7 @@
 python3 --version && node --version && npm --version
 ```
 
-### Codex 使用者可以先閱讀 ⚡ [QUICKSTART.md](QUICKSTART.md)，再進入 📖 [10-Codex專屬懶人包-macOS版.md](10-Codex專屬懶人包-macOS版.md) 完成完整配置：
+### Codex 使用者可以先閱讀 ⚡ [QUICKSTART.md](QUICKSTART.md)，再進入 📖 [10-Codex專屬懶人包-macOS版.md](10-Codex專屬懶人包-macOS版.md) 或 🗺️ [docs/workflows.md](docs/workflows.md) 完成完整配置：
 
 1. **第一部分**：連接 NotebookLM、Firebase、GitHub 與 Obsidian（macOS 版指令）。
 2. **第二部分**：使用 Codex 產出圖片、文件、簡報與試算表。
