@@ -66,7 +66,7 @@ firebase projects:list
 ```bash
 pip3 install --user notebooklm-mcp-cli
 nlm login
-nlm list
+nlm list notebooks
 ```
 
 ### Obsidian

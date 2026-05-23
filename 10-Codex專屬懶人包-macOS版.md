@@ -74,7 +74,7 @@ mkdir -p ~/Documents ~/Projects
 ```bash
 pip3 install --user notebooklm-mcp-cli
 nlm login
-nlm list
+nlm list notebooks
 ```
 
 如果 `nlm` 找不到，先確認 Python 使用者安裝路徑：

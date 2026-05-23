@@ -14,7 +14,7 @@
 | GitHub 帳號 | GmiiLiao |
 | Obsidian Vault | ~/Documents/ObsidianVault/ |
 | Firebase 專案 | 以 `firebase projects:list` 為準 |
-| NotebookLM | 以 `nlm list` 或 Codex connector 為準 |
+| NotebookLM | 以 `nlm list notebooks` 或 Codex connector 為準 |
 
 ---
 
@@ -78,7 +78,7 @@ gh repo list GmiiLiao --limit 10
 firebase projects:list
 
 # NotebookLM
-nlm list
+nlm list notebooks
 
 # Obsidian Vault
 ls ~/Documents/ObsidianVault/
